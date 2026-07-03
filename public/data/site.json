@@ -5,29 +5,47 @@
     "tagline": "Code. Cloud. Community."
   },
   "hero": {
-    "eyebrow": "Student cloud community",
-    "title": "AWS Student Builder Group at GCES",
-    "description": "A student-led group helping GCES learners explore AWS, cloud fundamentals, community projects, and practical builder skills.",
-    "primaryAction": "Explore Events",
-    "secondaryAction": "Meet Members"
+    "eyebrow": "Cloud, AI and emerging technology community",
+    "title": "Build what the future runs on.",
+    "description": "AWS Student Builder Group - GCES helps students learn cloud computing, AI, and new technologies through hands-on sessions, workshops, industry engagement, and collaborative projects.",
+    "primaryAction": "Discover the Group",
+    "secondaryAction": "Explore Events",
+    "badges": ["Cloud labs", "AI awareness", "AWS pathways", "Industry ready"]
   },
   "stats": [
-    { "value": "18+", "label": "Core members" },
-    { "value": "3", "label": "Focus tracks" },
-    { "value": "1", "label": "Builder community" }
+    { "value": "18+", "label": "Student leaders" },
+    { "value": "4", "label": "Learning tracks" },
+    { "value": "100%", "label": "Builder mindset" }
   ],
+  "about": {
+    "title": "About AWS Student Builder Group - GCES",
+    "description": "AWS Student Builder Group - GCES is a student-led technical community dedicated to empowering students through cloud computing education, hands-on learning, and industry engagement. The group organizes workshops, technical sessions, networking events, and collaborative initiatives that help students build practical skills and prepare for careers in cloud computing and emerging technologies.",
+    "vision": "To create a thriving community of students equipped with cloud computing knowledge, innovation, and technical excellence while fostering the next generation of technology leaders in cloud and AI.",
+    "mission": [
+      "Promote awareness of cloud technologies, AI, and new technologies among students.",
+      "Bridge the gap between academia and industry.",
+      "Encourage practical learning through workshops and technical events.",
+      "Support students in pursuing globally recognized AWS learning pathways and certifications."
+    ],
+    "objectives": [
+      "Introduce students to cloud computing concepts.",
+      "Build awareness of AWS technologies, cloud platforms, new technologies, and AI.",
+      "Encourage innovation and continuous learning.",
+      "Connect students with industry opportunities."
+    ]
+  },
   "features": [
     {
-      "title": "Learn cloud foundations",
-      "description": "Beginner-friendly sessions on AWS, cloud concepts, hosting, storage, compute, and modern infrastructure."
+      "title": "Cloud and AWS foundations",
+      "description": "Beginner-friendly learning around AWS services, cloud concepts, hosting, storage, compute, and modern infrastructure."
     },
     {
-      "title": "Build practical projects",
-      "description": "Small demos, peer tasks, and guided experiments that help students turn cloud ideas into working products."
+      "title": "AI and emerging technologies",
+      "description": "Awareness sessions and discussions around AI, automation, and the technologies reshaping software and industry."
     },
     {
-      "title": "Grow with community",
-      "description": "A supportive place to ask questions, organize events, share resources, and learn through collaboration."
+      "title": "Hands-on builder culture",
+      "description": "Workshops, technical events, peer demos, and collaborative initiatives that turn curiosity into practical skill."
     }
   ],
   "events": [
@@ -66,7 +84,9 @@
         },
         {
           "name": "Aashik Gautam",
-          "role": "Content Creation / Website Development Head"
+          "role": "Content Creation / Website Development Head",
+          "image": "/assets/members/Aashik.png"
+
         }
       ]
     },
@@ -76,7 +96,7 @@
         {
           "name": "Kritik Acharya",
           "role": "Event Management Executive",
-          "image": "/assets/members/kritik-acharya.jpg"
+          "image": "/assets/members/kritik.png"
         },
         {
           "name": "Aakriti Neupane",
@@ -134,8 +154,8 @@
     }
   ],
   "join": {
-    "title": "Ready to build with us?",
-    "description": "Join the next session, meet the members, and start learning cloud with a community that is growing inside GCES.",
+    "title": "Ready to build with the GCES cloud community?",
+    "description": "Join the next session, meet the members, and start learning AWS, cloud, AI, and emerging technologies with people who are building beside you.",
     "action": "View Event"
   }
 }

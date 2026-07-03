@@ -23,6 +23,7 @@ function Header({ brand }) {
   const [open, setOpen] = useState(false);
   const links = [
     ["About", "#about"],
+    ["Vision", "#vision"],
     ["Events", "#events"],
     ["Members", "#members"],
     ["Join", "#join"]
@@ -71,21 +72,38 @@ function Hero({ data }) {
         <p className="eyebrow">{data.hero.eyebrow}</p>
         <h1>{data.hero.title}</h1>
         <p>{data.hero.description}</p>
+        <div className="hero-badges" aria-label="Community focus areas">
+          {data.hero.badges?.map((badge) => (
+            <span key={badge}>{badge}</span>
+          ))}
+        </div>
         <div className="hero-actions">
-          <a className="button button-primary" href="#events">
+          <a className="button button-primary" href="#about">
             {data.hero.primaryAction}
           </a>
-          <a className="button button-secondary" href="#members">
+          <a className="button button-secondary" href="#events">
             {data.hero.secondaryAction}
           </a>
         </div>
       </div>
-      <aside className="hero-panel" aria-label="Community highlights">
-        <p>{data.brand.tagline}</p>
-        <div className="cloud-symbol" aria-hidden="true">
+      <aside className="hero-panel hero-console" aria-label="Cloud learning console">
+        <div className="console-top">
           <span />
+          <span />
+          <span />
+          <strong>builder-cloud.ai</strong>
         </div>
-        <h2>Come find out.</h2>
+        <div className="cloud-map" aria-hidden="true">
+          <div className="cloud-core">
+            <span>GCES</span>
+          </div>
+          <span className="node node-one">AWS</span>
+          <span className="node node-two">AI</span>
+          <span className="node node-three">Labs</span>
+          <span className="node node-four">Career</span>
+        </div>
+        <p>{data.brand.tagline}</p>
+        <h2>Learn. Build. Lead.</h2>
         <div className="stat-grid">
           {data.stats.map((stat) => (
             <div key={stat.label}>
@@ -99,12 +117,56 @@ function Hero({ data }) {
   );
 }
 
+function About({ about }) {
+  return (
+    <section className="section about-section" id="about">
+      <div className="about-copy reveal">
+        <p className="eyebrow">About the group</p>
+        <h2>{about.title}</h2>
+        <p>{about.description}</p>
+      </div>
+      <div className="about-side reveal">
+        <span>Student-led</span>
+        <strong>Cloud, AI, industry engagement, and practical learning inside GCES.</strong>
+      </div>
+    </section>
+  );
+}
+
+function VisionMission({ about }) {
+  return (
+    <section className="section vision-section" id="vision">
+      <div className="vision-card reveal">
+        <p className="eyebrow">Our vision</p>
+        <h2>Creating the next generation of technology leaders.</h2>
+        <p>{about.vision}</p>
+      </div>
+      <div className="list-panel reveal">
+        <p className="eyebrow">Our mission</p>
+        <ul>
+          {about.mission.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="list-panel reveal">
+        <p className="eyebrow">Objectives</p>
+        <ul>
+          {about.objectives.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 function Features({ features }) {
   return (
-    <section className="section dark-band" id="about">
+    <section className="section dark-band" id="focus">
       <div className="section-head reveal">
-        <p className="eyebrow">What we do</p>
-        <h2>Cloud learning that feels practical from day one.</h2>
+        <p className="eyebrow">Focus areas</p>
+        <h2>Where curiosity turns into capability.</h2>
       </div>
       <div className="feature-grid">
         {features.map((feature, index) => (
@@ -283,6 +345,8 @@ function App() {
       <Header brand={data.brand} />
       <main>
         <Hero data={data} />
+        <About about={data.about} />
+        <VisionMission about={data.about} />
         <Features features={data.features} />
         <Events events={data.events} />
         <Members teams={data.teams} />
