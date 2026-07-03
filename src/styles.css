@@ -832,7 +832,7 @@ h1 {
 .member-card img,
 .avatar-fallback {
   width: 92px;
-  aspect-ratio: 1;
+  height: 92px;
   border-radius: var(--radius);
 }
 
