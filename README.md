@@ -57,3 +57,4 @@ Then add the image path in `public/data/site.json`:
 
 If `image` is missing, the website automatically shows an initials placeholder with the member name as accessible alt text.
 # AWS-Website-GCES
+# AWS-Website-GCES
