@@ -223,7 +223,15 @@ function MemberCard({ member, index }) {
   return (
     <article className="member-card reveal" style={{ "--delay": `${(index % 6) * 60}ms` }}>
       {member.image ? (
-        <img src={member.image} alt={member.name} loading="lazy" />
+        <img
+          src={member.image}
+          alt={member.name}
+          width="480"
+          height="480"
+          loading="lazy"
+          decoding="async"
+          sizes="(max-width: 420px) calc(100vw - 68px), 92px"
+        />
       ) : (
         <div className="avatar-fallback" role="img" aria-label={member.name}>
           {initials(member.name)}
