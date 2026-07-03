@@ -91,7 +91,7 @@ function Hero({ data }) {
           <span />
           <span />
           <span />
-          <strong>builder-cloud.ai</strong>
+          <strong>GCES x AWS</strong>
         </div>
         <div className="cloud-map" aria-hidden="true">
           <div className="cloud-core">
@@ -361,7 +361,7 @@ function App() {
         <Join join={data.join} />
       </main>
       <footer>
-        <p>{data.brand.name} {data.brand.location}</p>
+        <p>{data.brand.name} {data.brand.location}. &nbsp; &nbsp;      Made with ❤️ by Aashik</p>
         <a href="#top">Back to top</a>
       </footer>
     </>
