@@ -106,7 +106,9 @@
         },
         {
           "name": "Aakriti Neupane",
-          "role": "Documentation / Coordination Team Member"
+          "role": "Documentation / Coordination Team Member",
+          "image": "/assets/members/optimized/aakriti.jpeg"
+
         },
         {
           "name": "Niharika Poudel",
@@ -115,7 +117,9 @@
         },
         {
           "name": "Simron Pandit",
-          "role": "Social Media & Design Team Member"
+          "role": "Social Media & Design Team Member",
+          "image": "/assets/members/optimized/simran.jpeg"
+
         },
         {
           "name": "Sabal Gupta",
@@ -133,7 +137,9 @@
       "members": [
         {
           "name": "Prathana Gurung",
-          "role": "2nd Semester, Computer Engineering"
+          "role": "2nd Semester, Computer Engineering",
+          "image": "/assets/members/optimized/prathana.jpeg"
+
         },
         {
           "name": "Srijit Timsina",
@@ -146,15 +152,20 @@
         },
         {
           "name": "Grishma Thapa",
-          "role": "4th Semester, Software Engineering"
+          "role": "4th Semester, Software Engineering",
+          "image": "/assets/members/optimized/grishma.jpeg"
         },
         {
           "name": "Suchana Chhetri",
-          "role": "6th Semester, Computer Engineering"
+          "role": "6th Semester, Computer Engineering",
+          "image": "/assets/members/optimized/suchana.jpeg"
+
         },
         {
           "name": "Pratistha Subedi",
-          "role": "6th Semester, Software Engineering"
+          "role": "6th Semester, Software Engineering",
+          "image": "/assets/members/optimized/pratistha.jpeg"
+
         }
       ]
     }
