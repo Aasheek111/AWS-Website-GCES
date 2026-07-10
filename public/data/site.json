@@ -50,12 +50,12 @@
   ],
   "events": [
     {
-      "title": "Why is everyone talking about the cloud?",
-      "description": "An introductory session for curious students, beginners, and future builders who want to understand why cloud skills matter.",
-      "date": "5 July 2026",
-      "day": "Sunday",
-      "time": "10:30 AM onwards",
-      "venue": "Seminar Hall, GCES, Lamachaur",
+      "title": "Hike",
+      "description": "Hike and Network",
+      "date": "11 July 2026",
+      "day": "Saturday",
+      "time": "6:30 AM onwards",
+      "venue": "Valam",
       "status": "Upcoming"
     }
   ],
@@ -171,8 +171,8 @@
     }
   ],
   "join": {
-    "title": "Ready to Hike with community?",
-    "description": "Join the Hike , meet the members and have fun ",
+    "title": "Ready to Hike community?",
+    "description": "Join the next session, meet the members, and start learning AWS, cloud, AI, and emerging technologies with people who are building beside you.",
     "action": "View Event"
   }
 }
